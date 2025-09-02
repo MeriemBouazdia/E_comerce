@@ -1,0 +1,98 @@
+/* Global Styles */
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Full-Page Background */
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://images.unsplash.com/photo-1707305637615-bc1a1328d584?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+    background-position:center;
+}
+/* Background Image Section */
+
+/* Login Container */
+.login-container {
+    background: rgba(240, 167, 194, 0.95); /* Light pink with slight transparency */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Remember Me Checkbox */
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+/* Login Button */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #f59ad8;
+    color: rgb(35, 33, 33);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #e681b6;
+}
+
+/* Forgot Password Link */
+.links {
+    margin-top: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .login-container {
+        width: 90%;
+    }
+}
